@@ -1,0 +1,23 @@
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes shadow {
+  form {
+    box-shadow: 0 0 3px #e1fa51;
+  }
+  50% {
+    box-shadow: 0 0 30px #d9ec6b;
+  }
+  to {
+    box-shadow: 0 0 3px #e5fd5c;
+  }
+}
